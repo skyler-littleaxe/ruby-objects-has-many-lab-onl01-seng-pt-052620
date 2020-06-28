@@ -11,7 +11,10 @@ end
 def self.all
   @@all
 end
-def add_post (title)
+
+def add_post (post)
+  post.author = self
+end
   
 
 
